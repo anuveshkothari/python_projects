@@ -14,4 +14,4 @@ def Guess_the_number(num):
 
 
 if __name__ == '__main__':
-    Guess_the_number(10)
+    Guess_the_number(100)
