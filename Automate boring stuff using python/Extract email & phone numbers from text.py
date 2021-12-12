@@ -1,13 +1,11 @@
-# program to find all the phone numbers/emails from the data copied on clipboard
+# program to find all the phone numbers/emails from the text
 
 # steps
 # 1.1. regex for US phone number (type: xxx-xxx-xxxx)
 # 1.2. regex for Indian phone number (type: XXXXXXXXXX, 0 XXXXXXXXXX, 0-XXXXXXXXXX, +91 XXXXXXXXXX, 91 XXXXXXXXXX, 91XXXXXXXXXX)
 # 2. regex for email (type: som!_.1ething@some!_1thing.edu)
-# 3. get the text off the clipboard
-# 4. extract the email & phone from the text.
-# 5. copy the text back to the clipboard.
-
+# 3. extract the email & phone from the text.
+# 4. print the data
 
 import re
 
